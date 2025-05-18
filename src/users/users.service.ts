@@ -58,6 +58,7 @@ export class UsersService {
       ...user,
     };
     this.users.push(newUser);
+    return newUser;
   }
   update(
     id: number,
